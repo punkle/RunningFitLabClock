@@ -1,0 +1,9 @@
+<layout id="WatchFace">
+    <drawable id="background" />
+    <bitmap id="BatteryLogo" x="center" y="0%" filename="../drawables/batteryIcon.png" />
+    <label id="BatteryPercentageLabel" x="center" y="7%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <label id="TimeLabel" x="30%" y="20%" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <label id="SecondsLabel" x="30%" y="50%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <label id="DateLabel" x="center" y="85%" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLACK" />
+    <bitmap id="RunningFitLabLogo" x="center" y="center" filename="../drawables/RunningFitLab-170x126.png" />
+</layout>

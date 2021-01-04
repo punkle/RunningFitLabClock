@@ -27,11 +27,11 @@ class RunningFitLabClockView extends WatchUi.WatchFace {
         var clockTime = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 
         var hour = clockTime.hour;
-        
+
         var timeString = Lang.format("$1$:$2$$3$", [twelveHour(hour), clockTime.min.format("%02d"), ampm(hour)]);
         var timeLabel = View.findDrawableById("TimeLabel");
         timeLabel.setText(timeString);
-        
+
         var dateString = Lang.format("$1$ $2$, $3$", [clockTime.month, clockTime.day, clockTime.year]);
         var dateLabel = View.findDrawableById("DateLabel");
         dateLabel.setText(dateString);
